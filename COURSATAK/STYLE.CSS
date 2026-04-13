@@ -1,0 +1,222 @@
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 0;
+  background: #eef2f7;
+  color: #2c3e50;
+}
+
+header {
+  background: #3f72af;
+  color: rgb(246, 242, 242);
+  text-align: center;
+  padding: 22px 18px;
+}
+
+header p {
+  margin: 8px auto 0;
+  max-width: 620px;
+  font-size: 0.98rem;
+  opacity: 0.92;
+}
+
+nav {
+  background: white;
+  border-bottom: 1px solid #d4d9e7;
+  text-align: center;
+  padding: 12px 0;
+}
+
+nav a {
+  color: #364e63;
+  margin: 0 12px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+nav a:hover {
+  color: #3f72af;
+}
+
+.hero {
+  background: rgb(248, 246, 246);
+  max-width: 720px;
+  opacity: 100%;
+  margin: 24px auto;
+  padding: 28px 22px;
+  color: #22303f;
+  border-radius: 14px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  background: #3f72af;
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 999px;
+  transition: background 0.2s ease;
+}
+
+.btn:hover {
+  background: #315f92;
+}
+
+.courses {
+  padding: 24px 18px;
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.courses-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  border: 1px solid #d8dce7;
+}
+
+.courses-table th,
+.courses-table td {
+  padding: 16px 18px;
+  text-align: left;
+  border-bottom: 1px solid #e8ecf0;
+}
+
+.courses-table th {
+  background: #3f72af;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+}
+
+.courses-table td {
+  color: #47535f;
+}
+
+.courses-table img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 8px;
+  display: block;
+}
+
+.courses-table tbody tr:hover {
+  background: #f8fafc;
+}
+
+.courses-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.contact-card {
+  background: white;
+  max-width: 560px;
+  margin: 24px auto;
+  padding: 28px 24px;
+  border-radius: 14px;
+  border: 1px solid #d8dce7;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+}
+
+.contact-card h2 {
+  margin-top: 0;
+  font-size: 1.5rem;
+  color: #22303f;
+}
+
+.contact-card p {
+  margin: 16px 0;
+  color: #47535f;
+  line-height: 1.6;
+}
+
+.contact-card a {
+  color: #3f72af;
+  text-decoration: none;
+}
+
+.contact-card a:hover {
+  text-decoration: underline;
+}
+
+.form-box {
+  background: white;
+  width: 90%;
+  max-width: 520px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #d8dce7;
+}
+
+.form-box input,
+.form-box textarea {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px 12px;
+  border: 1px solid #c5cbd8;
+  border-radius: 8px;
+}
+
+.form-box button {
+  background: #3f72af;
+  color: white;
+  padding: 10px 14px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  color: #5a6778;
+  font-size: 0.95rem;
+}
+
+@media (max-width: 768px) {
+  nav a {
+    display: inline-block;
+    margin: 8px 10px;
+  }
+
+  .hero,
+  .contact-card,
+  .form-box {
+    width: 94%;
+    padding: 20px;
+  }
+
+  .card img {
+    height: 160px;
+  }
+
+  header {
+    padding: 18px 14px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+  .courses {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 15px;
+  }
+
+}
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 0;
+  background: linear-gradient(rgba(63,114,175,0.6), rgba(63,114,175,0.6)),
+              url("./images/download\ \(2\).jpg") no-repeat center/cover;
+  color: white;
+}
